@@ -1,0 +1,131 @@
+*{ 
+    margin:0 ;
+    padding: 0;
+    box-sizing:border-box;
+}
+body
+{
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.contenedor
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.izquierda
+{
+    position: relative;
+    background: #0288c6;
+    padding: 40px;
+}
+.perfil
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.foto
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.foto img
+{ 
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.perfil h2
+{
+    color: #fff;
+    font-size: 1.5 em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4 em;
+}
+.perfil span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+
+.contacto{padding-top: 30px;
+    color: azure;
+}
+.contacto ul 
+{
+    position: relative;
+}
+.contacto ul li 
+{
+    position: relative;
+    margin: 10px;
+}
+.contacto ul li h5 
+{
+    color:rgba(114, 3, 107, 0.985) ;
+}
+.derecha
+{
+    position: relative;
+    padding: 40px;
+}
+.miperfil
+{
+    margin-bottom: 50px;
+}
+.title2
+{
+    color: #0288c6; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{ 
+    color: #333;
+}
+.miperfil .caja{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.miperfil .caja .empresa
+{
+    min-width: 150px;
+}
+.miperfil .caja .empresa h5
+{
+    text-transform: uppercase;
+    color: #0288c6;
+    font-weight: 600;
+}
+.miperfil .caja .texto2 h4
+{
+    text-transform: uppercase;
+    color: #0288c6;
+    font-size: 16px;
+}
